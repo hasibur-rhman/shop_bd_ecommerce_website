@@ -34,7 +34,7 @@ $orders = mysqli_query($conn, "SELECT o.*, u.name as user_name FROM orders o JOI
 </nav>
 
 <div class="page-container">
-    <div class="page-title">📊 Admin Dashboard</div>
+    <div class="page-title">Admin Dashboard</div>
 
     <div class="stat-grid">
         <div class="stat-card">
@@ -68,8 +68,8 @@ $orders = mysqli_query($conn, "SELECT o.*, u.name as user_name FROM orders o JOI
     </div>
 
     <div style="display:flex;gap:20px;flex-wrap:wrap;margin-bottom:25px;">
-        <a href="products.php" class="btn btn-primary">➕ Add Product</a>
-        <a href="orders.php" class="btn btn-gold">📋 View All Orders</a>
+        <a href="products.php" class="btn btn-primary"> Add Product</a>
+        <a href="orders.php" class="btn btn-gold"> View All Orders</a>
     </div>
 
     <div class="card">
@@ -116,3 +116,4 @@ $orders = mysqli_query($conn, "SELECT o.*, u.name as user_name FROM orders o JOI
 
 </body>
 </html>
+

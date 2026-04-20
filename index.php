@@ -10,7 +10,7 @@
         * { margin: 0; padding: 0; box-sizing: border-box; }
         
         :root {
-            --primary: #1a1a2e;
+            --primary: #1c1c37;
             --accent: #e94560;
             --gold: #f5a623;
             --light: #f8f5f0;

@@ -51,7 +51,7 @@ $products = mysqli_query($conn, "SELECT * FROM products $where ORDER BY created_
         .product-body { padding: 16px; }
         .product-name { font-weight: 600; font-size: 0.92rem; margin-bottom: 6px; color: #1a1a2e; }
         .product-cat { font-size: 0.75rem; color: #aaa; margin-bottom: 8px; }
-        .product-price { font-size: 1.1rem; font-weight: 700; color: #e94560; margin-bottom: 8px; }
+        .product-price { font-size: 1.1rem; font-weight: 700; color: #e9459c; margin-bottom: 8px; }
         .product-stock { font-size: 0.78rem; color: #888; margin-bottom: 12px; }
         .modal-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.5); z-index: 999; align-items: center; justify-content: center; }
         .modal-overlay.active { display: flex; }

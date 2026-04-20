@@ -71,9 +71,9 @@ $orders = mysqli_query($conn, "SELECT o.*, u.name as user_name, u.email as user_
     <div class="filter-tabs">
         <a href="orders.php" class="filter-tab <?= !$filter ? 'active' : '' ?>">All Orders</a>
         <a href="orders.php?status=pending" class="filter-tab <?= $filter==='pending' ? 'active' : '' ?>">⏳ Pending</a>
-        <a href="orders.php?status=confirmed" class="filter-tab <?= $filter==='confirmed' ? 'active' : '' ?>">✅ Confirmed</a>
-        <a href="orders.php?status=delivered" class="filter-tab <?= $filter==='delivered' ? 'active' : '' ?>">📦 Delivered</a>
-        <a href="orders.php?status=cancelled" class="filter-tab <?= $filter==='cancelled' ? 'active' : '' ?>">❌ Cancelled</a>
+        <a href="orders.php?status=confirmed" class="filter-tab <?= $filter==='confirmed' ? 'active' : '' ?>"> Confirmed</a>
+        <a href="orders.php?status=delivered" class="filter-tab <?= $filter==='delivered' ? 'active' : '' ?>"> Delivered</a>
+        <a href="orders.php?status=cancelled" class="filter-tab <?= $filter==='cancelled' ? 'active' : '' ?>"> Cancelled</a>
     </div>
 
     <div class="card" style="padding:0;overflow:hidden;">
